@@ -9,7 +9,7 @@
 </template>
 
 <script
-  src="dashboard.js"
+  src="./dashboard.js"
   type="text/ecmascript-6"
 />
 
