@@ -1,0 +1,48 @@
+{
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.formatOnSave": true
+  },
+  // vetur configuration
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  // prettier configuration
+  "prettier.disableLanguages": [
+    "vue"
+  ],
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  // koroFineHeader 配置
+  "fileheader.customMade": {
+    "Author": "liuchao",
+    "Date": "Do not edit",
+    "LastEditors": "liuchao",
+    "LastEditTime": "Do not edit",
+    "Description": "",
+    "Email": "liuchao@hua-cloud.com.cn",
+    "Company": "hua-cloud"
+  },
+  "sonarlint.ls.javaHome": "/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home",
+  "stylelint.enable": true,
+  "css.validate": true,
+  "less.validate": true,
+  "scss.validate": true,
+}
