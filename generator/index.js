@@ -72,7 +72,7 @@ const newDependencies = {
 
 module.exports = (api, options, rootOptions, opts) => {
   // 修改 `package.json` scripts
-  Object.keys(devDependencies).forEach(key => {
+  Object.keys(scripts).forEach(key => {
     api.extendPackage({
       'scripts': {
         [key]: scripts[key]
@@ -80,7 +80,7 @@ module.exports = (api, options, rootOptions, opts) => {
     })
   })
   
-  // 安装开发依赖
+  // 开发依赖
   Object.keys(devDependencies).forEach(dependencyName => {
     if (!api.hasPlugin(dependencyName)) {
       api.extendPackage({
@@ -91,7 +91,7 @@ module.exports = (api, options, rootOptions, opts) => {
     }
   })
   
-  // 安装生产依赖包
+  // 生产依赖包
   Object.keys(newDependencies).forEach(dependencyName => {
     if (!api.hasPlugin(dependencyName)) {
       api.extendPackage({
@@ -126,6 +126,13 @@ module.exports = (api, options, rootOptions, opts) => {
         'commit-msg': 'commitlint -E HUSKY_GIT_PARAMS'
       }
     }
+  })
+  
+  // 删除原有 eslintConfig 配置
+  api.extendPackage(page => {
+    delete page.eslintConfig
+    delete page.postcss
+    return page
   })
   
   api.postProcessFiles(files => {
