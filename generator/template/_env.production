@@ -1,0 +1,7 @@
+# 生产环境
+
+# 指定构建模式
+NODE_ENV=production
+
+# 网络请求公用地址
+VUE_APP_API=/

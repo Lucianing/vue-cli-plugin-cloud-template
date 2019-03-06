@@ -1,0 +1,20 @@
+# EditorConfig 帮助开发人员在不同的编辑器和IDE之间定义和维护一致的编码风格
+# http://editorconfig.org
+
+# 不再向上找配置文件
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+# 文件结尾符
+end_of_line = lf
+# 文件尾空空一行
+insert_final_newline = true
+# 去除行尾空白字符
+trim_trailing_whitespace = true
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
