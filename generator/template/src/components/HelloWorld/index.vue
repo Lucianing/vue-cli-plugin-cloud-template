@@ -1,6 +1,4 @@
 <!--
-  @author:  lzc
-  @date:    2019-02-27
   @file:    xx
   @require:
 -->
@@ -12,4 +10,5 @@
 
 <script
   src="./HelloWorld.js"
+  type="text/jsx"
 />

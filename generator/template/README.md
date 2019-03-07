@@ -1,4 +1,4 @@
-# 
+
 
 ## 开发指南
 
@@ -9,7 +9,7 @@ npm install
 
 ### 开发环境编译和热更新
 ```
-npm run serve
+npm run dev
 ```
 
 ### 生产环境编译

@@ -44,6 +44,7 @@ const devDependencies = {
   'babel-plugin-syntax-jsx': '^6.18.0',
   'babel-plugin-transform-vue-jsx': '^3.7.0',
   'eslint': '^5.8.0',
+  'eslint-config-hua-cloud': '^1.0.1',
   'eslint-plugin-vue': '^5.2.2',
   'husky': '^1.3.1',
   'node-sass': '^4.9.0',

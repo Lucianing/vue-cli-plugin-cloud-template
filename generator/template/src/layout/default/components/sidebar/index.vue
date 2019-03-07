@@ -1,6 +1,4 @@
 <!--
-  @author:  lzc
-  @date:    2019-02-27
   @file:    xx
   @require:
 -->
@@ -10,6 +8,14 @@
   </div>
 </template>
 
-<script src="./sidebar.js" type="text/ecmascript-6" />
+<script
+  src="./sidebar.js"
+  type="text/ecmascript-6"
+/>
 
-<style src="./sidebar.scss" rel="stylesheet/scss" lang="scss" scoped />
+<style
+  src="./sidebar.scss"
+  rel="stylesheet/scss"
+  lang="scss"
+  scoped
+/>

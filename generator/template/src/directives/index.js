@@ -4,9 +4,7 @@ import Vue from 'vue';
 const ctx = require.context('./global', true, /\.(js)$/);
 ctx.keys().forEach(key => {
   const directiveConfig = ctx(key);
-  /**
-   * 兼容 import export 和 require module.export 两种规范
-   */
+  // 兼容 import export 和 require module.export 两种规范
   const ctrl = directiveConfig.default || directiveConfig;
   console.log('全局注册指令:', ctrl.name);
   Vue.directive(ctrl.name, ctrl);
