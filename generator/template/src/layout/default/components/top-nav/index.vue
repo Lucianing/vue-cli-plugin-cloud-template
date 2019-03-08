@@ -7,7 +7,7 @@
 <template>
   <div class="top-nav">
     <span class="toggle-icon">
-      <hua-svg-icon icon-class="menu" />
+      <svg-icon icon-class="menu" />
     </span>
   </div>
 </template>

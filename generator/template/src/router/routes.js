@@ -2,19 +2,19 @@
  * @Description: 静态路由配置
  */
 
-import layout from '@/layout/default';
+import Layout from '@/layout/default';
 
 export default [
   {
     path: '/',
     name: 'Layout',
-    component: layout,
-    redirect: '/dashbord',
+    component: Layout,
+    redirect: '/dashboard',
     children: [
       {
-        path: 'dashbord',
-        name: 'Dashbord',
-        component: () => import('@/views/dashbord'),
+        path: 'dashboard',
+        name: 'Dashboard',
+        component: () => import('@/views/dashboard'),
       },
     ],
   },

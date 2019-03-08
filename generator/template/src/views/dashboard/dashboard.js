@@ -5,24 +5,15 @@
  */
 export default {
   name: 'Dashboard',
-  
   components: {},
-  
   props: {},
-  
   data() {
-    return {}
+    return {};
   },
-  
   computed: {},
-  
   watch: {},
-  
   created() {},
-  
   mounted() {},
-  
   destroyed() {},
-  
-  methods: {}
-}
+  methods: {},
+};
