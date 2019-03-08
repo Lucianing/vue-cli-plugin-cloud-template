@@ -1,5 +1,7 @@
 /**
  * @file:   文件描述
+ * @author: lzc
+ * @date:   2019-02-27
  */
 export default {
   name: 'Sidebar',
@@ -15,12 +17,6 @@ export default {
   computed: {},
 
   watch: {},
-
-  created() {},
-
-  mounted() {},
-
-  destroyed() {},
 
   methods: {},
 };

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sh": "node ./sh.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Lucianing/vue-cli-plugin-cloud-template/issues"
   },
-  "homepage": "https://github.com/Lucianing/vue-cli-plugin-cloud-template#readme"
+  "homepage": "https://github.com/Lucianing/vue-cli-plugin-cloud-template#readme",
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "globby": "^9.1.0",
+    "runjs": "^4.4.2"
+  }
 }

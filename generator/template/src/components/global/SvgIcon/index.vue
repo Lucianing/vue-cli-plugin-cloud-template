@@ -8,7 +8,7 @@
   </svg>
 </template>
 
-<script  type="text/jsx">
+<script>
 import '@/assets/icons';
 export default {
   name: 'SvgIcon',
@@ -30,7 +30,7 @@ export default {
 };
 </script>
 
-<style rel="stylesheet/scss" lang="scss" scoped>
+<style scoped>
 .svg-icon {
   width: 1em;
   height: 1em;

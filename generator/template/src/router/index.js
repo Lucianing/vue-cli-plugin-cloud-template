@@ -1,5 +1,11 @@
-/**
- * @file: 路由配置入口文件
+/*
+ * @Author: liuchao
+ * @LastEditors: liuchao
+ * @Description: 路由配置入口文件
+ * @Email: liuchao@hua-cloud.com.cn
+ * @Company: hua-cloud
+ * @Date: 2019-03-04 10:11:38
+ * @LastEditTime: 2019-03-04 22:21:23
  */
 
 import Vue from 'vue';

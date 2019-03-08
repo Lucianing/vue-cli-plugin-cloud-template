@@ -1,5 +1,7 @@
 /**
- * @file:   App js
+ * @file:   文件描述
+ * @author: lzc
+ * @date:   2019-02-26
  */
 
 export default {
@@ -16,12 +18,6 @@ export default {
   computed: {},
 
   watch: {},
-
-  created() {},
-
-  mounted() {},
-
-  destroyed() {},
 
   methods: {},
 };

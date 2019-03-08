@@ -1,5 +1,11 @@
 /*
- * @file: 自动加载全局过滤器
+ * @Author: liuchao
+ * @LastEditors: liuchao
+ * @Description: 自动加载全局过滤器
+ * @Email: liuchao@hua-cloud.com.cn
+ * @Company: hua-cloud
+ * @Date: 2019-03-04 10:11:38
+ * @LastEditTime: 2019-03-04 22:20:11
  */
 import Vue from 'vue';
 

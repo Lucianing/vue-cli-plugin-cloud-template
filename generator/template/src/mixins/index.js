@@ -1,5 +1,11 @@
-/**
- * @file: 自动全局混入
+/*
+ * @Author: liuchao
+ * @LastEditors: liuchao
+ * @Description: 自动全局混入
+ * @Email: liuchao@hua-cloud.com.cn
+ * @Company: hua-cloud
+ * @Date: 2019-03-04 10:11:38
+ * @LastEditTime: 2019-03-04 22:20:52
  */
 
 import Vue from 'vue';

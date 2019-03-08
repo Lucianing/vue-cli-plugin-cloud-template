@@ -1,1 +1,1 @@
-### Welcome to API
+### Welcome to vue-huacloud-template

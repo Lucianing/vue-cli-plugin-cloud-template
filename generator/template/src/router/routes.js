@@ -1,5 +1,11 @@
-/**
- * @file: 静态路由配置
+/*
+ * @Author: liuchao
+ * @LastEditors: liuchao
+ * @Description: 静态路由配置
+ * @Email: liuchao@hua-cloud.com.cn
+ * @Company: hua-cloud
+ * @Date: 2019-03-04 10:11:38
+ * @LastEditTime: 2019-03-04 22:21:42
  */
 
 import layout from '@/layout/default';
@@ -14,7 +20,7 @@ export default [
       {
         path: 'home',
         name: 'Home',
-        component: () => import('@/views/dashboard'),
+        component: () => import('@/views/Home.vue'),
       },
     ],
   },

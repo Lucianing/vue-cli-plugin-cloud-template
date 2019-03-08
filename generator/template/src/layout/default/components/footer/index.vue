@@ -1,4 +1,6 @@
 <!--
+  @author:  lzc
+  @date:    2019-03-02
   @file:    xx
   @require:
 -->
@@ -11,13 +13,13 @@
 <script type="text/ecmascript-6">
 export default {
   name: 'AppFooter',
-  
+
   props: {
     text: {
       type: [String, Number],
-      default: new Date().getFullYear(),
-    },
-  },
+      default: new Date().getFullYear()
+    }
+  }
 };
 </script>
 

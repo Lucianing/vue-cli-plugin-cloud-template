@@ -15,14 +15,6 @@
   </div>
 </template>
 
-<script
-  src="./layout.js"
-  type="text/ecmascript-6"
-/>
+<script src="./layout.js" type="text/ecmascript-6" />
 
-<style
-  src="./layout.scss"
-  rel="stylesheet/scss"
-  lang="scss"
-  scoped
-/>
+<style src="./layout.scss" rel="stylesheet/scss" lang="scss" scoped />

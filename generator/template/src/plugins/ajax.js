@@ -8,15 +8,17 @@ import request from '@/plugins/request';
  * @return url {String} 返回正确的url， /api/v1/12/20
  */
 const dynamicUrl = (url, urlParams) => {
+  let urlResult = url;
   urlParams.forEach((item, index) => {
-    url = url.replace(new RegExp(`\\{${index}\\}`, 'g'), item);
+    urlResult = url.replace(new RegExp(`\\{${index}\\}`, 'g'), item);
   });
-  return url;
+  return urlResult;
 };
 
 /**
  * 请求方法函数
  * @param method
+ * @param {String} url 请求路径
  * @return {function(*, *, *=): Promise<*>}
  */
 const fetchMethodData = method => async (url, params, urlParams) => {

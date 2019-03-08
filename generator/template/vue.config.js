@@ -4,7 +4,7 @@
  *  详情请查看官网 https://cli.vuejs.org/zh/config/#全局-cli-配置
  */
 
-/* eslint-disable vue/script-indent*/
+/* eslint-disable vue/script-indent */
 const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const webpack = require('webpack');
